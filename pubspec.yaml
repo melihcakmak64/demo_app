@@ -1,0 +1,25 @@
+name: demo_app
+description: A new Flutter project.
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: '>=3.1.0 <4.0.0'
+
+dependencies:
+  camera: ^0.10.5+4
+  firebase_core: ^2.15.1
+  firebase_storage: ^11.2.6
+  flutter:
+    sdk: flutter
+  flutter_local_notifications: ^15.1.1
+  google_fonts: ^6.0.0
+  hexcolor: ^3.0.1
+
+dev_dependencies:
+  flutter_lints: ^2.0.0
+
+flutter:
+  assets:
+      - assets/
+  uses-material-design: true
